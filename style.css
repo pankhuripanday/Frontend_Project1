@@ -11,7 +11,7 @@
     display: flex;
     align-items: center;
     justify-content:space-between; 
-    background-color: rgba(26, 32, 44);
+    background-color: rgb(114, 18, 58);
     height: 5.5rem;  
 }
 
@@ -34,12 +34,15 @@
 .nav-logo{   
     color: #FFFFFF;
     width:70rem;
+    margin-left: 10px;
     justify-content: left;
     font-size: 1.9rem;
+    font-weight: 600;
 }
 .nav-logo a{
     text-decoration: none;
     color: #FFFFFF;
+    font-family: monospace;
 }
 
 .home{
@@ -193,7 +196,7 @@
 .hero{
     height: 54.37rem;
     width: 100%;
-    background-color:rgb(165, 209, 208) ;
+    background-color:rgb(228, 211, 219) ;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -216,28 +219,29 @@
     padding: 1.06rem 2.5rem;
     border-radius: 0.625rem;
     border: 0;
-    background-color: rgb(255, 56, 86);
+    background-color: rgb(114, 18, 58);
     letter-spacing: 0.094rem;
-    font-size: 0.938rem;
+    font-size: 0.940rem;
     transition: all 0.3s ease;
-    box-shadow: rgb(201, 46, 70) 0px 10px 0px 0px;
+    box-shadow: rgb(114, 18, 58) 0px 10px 0px 0px;
     color: hsl(0, 0%, 100%);
     cursor: pointer;
   }
   .button-donate:hover {
-    box-shadow: rgb(201, 46, 70) 0px 7px 0px 0px;
+    box-shadow: rgb(114, 18, 58) 0px 7px 0px 0px;
   }
   .button-donate:active {
-    background-color: rgb(255, 56, 86);
-    box-shadow: rgb(201, 46, 70) 0px 0px 0px 0px;
+    background-color: rgb(114, 18, 58);
+    box-shadow: rgb(114, 18, 58) 0px 0px 0px 0px;
     transform: translateY(5px);
     transition: 200ms;
   }
 .hero-part2{
-    width: 37.5rem;
-    height: 25rem;
+    width: 50rem;
+    height: 35rem;
     /* background-color: #FFFFFF; */
     background-image: url("hero.jpg");
+    mix-blend-mode: multiply;
     background-size: cover;
     border-radius: 0.625rem;
 }
@@ -250,7 +254,7 @@
 /* hero2 */
 
 .hero2{
-    background-color: rgb(194, 255, 255);
+    background-color: #d4b7c4;
     height: 74.75rem;
     display: flex;
     align-items: center;
@@ -267,9 +271,14 @@
     padding-bottom: 6rem;
     margin-left: 1.25rem;
     margin-right: 1.25;
-    background-color: rgb(194, 255, 255);
+    background-color: #d4b7c4;
 
     
+}
+.hero2-part1 p{
+    color: #020202;
+    font-size: 1rem;
+    margin-top: 1.25rem;
 }
 .heading{
     width:45.5rem;
@@ -283,10 +292,11 @@
 }
 
 .hero2-img1{
-    width: 12.5rem;
+    width: 17rem;
     height: 12.5rem;
     background-image: url("hero2-img1.jpg");
-    background-size: cover;
+    background-size: contain;
+    border-radius: 100%;
 }
 .hero2-img1-data{
     width: 31rem;
@@ -301,11 +311,12 @@
 }
 
 .hero2-img2{
-    width: 12.5rem;
+    width: 17rem;
     height: 12.5rem;
     background-color: #FFFFFF;
     background-image: url("hero2-img2.jpg");
     background-size: cover;
+    border-radius: 100%;
 }
 .hero2-img2-data{
     width: 31rem;
@@ -321,11 +332,12 @@
 
 
 .hero2-img3{
-    width: 12.5rem;
+    width: 17rem;
     height: 12.5rem;
     background-color: #FFFFFF;
     background-image: url("hero2-img3.jpg");
-    background-size: cover;
+    background-size:cover;
+    border-radius:100%;
 }
 .hero2-img3-data{
     width: 31rem;
@@ -341,11 +353,12 @@
 }
 
 .hero2-img4{
-    width: 12.5rem;
+    width: 17rem;
     height: 12.5rem;
     background-color: #FFFFFF;
     background-image: url("hero2-img4.jpg");
     background-size: cover;
+    border-radius: 100%;
 }
 .hero2-img4-data{
     width: 31rem;
@@ -359,7 +372,7 @@
 
 .hero3{
     height: 37.5rem;
-    background-color: rgb(139, 181, 181);
+    background-color: #a44c70;
 }
 .hero3-item{
     height: 17.62rem;
@@ -371,18 +384,22 @@
     
 } 
 .hero3-img{
-    width: 12.5rem;
-    height: 12.5rem;
+    width: 16rem;
+    height: 14rem;
      background-color: #FFFFFF; 
     background-image: url("hero3.jpg");
     background-size: cover;
+    border-radius: 100%;
 }
 .hero3-img-data{
     width: 31rem;
     height: 10.25rem;
     padding-left: 2rem;
 }
-
+.hero3-img-data p{
+    color: #020202;
+    font-size: 1rem;
+}
 #enquire-page{
     color: #FFFFFF;
     text-decoration: none;
@@ -393,7 +410,7 @@
 
 /* body */
 .cloth-wear{
-    background-color: #918ad4;
+    background-color: #c4849c;
 }
 .men-heading{
     display: flex;
@@ -403,10 +420,16 @@
 .men-heading span{
     color:rgb(5, 167, 167) ;
 }
+.men-heading h1{
+    color: rgb(0, 0, 0);
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+}
 .box-1{
-    background-color: rgb(243, 240, 240);
+    background-color: #ece5e8;
     height: 25rem;
     width: 20rem;
+    border-radius: 5%;
     margin-left: 3rem;
     margin-bottom: 0.625rem;
     margin-right: 0.625rem;
@@ -424,15 +447,16 @@
     width: 15rem;
     height: 15rem;
     background-size: cover;
+    mix-blend-mode: multiply;
     margin-top: 2.5rem;
     margin-left: 2.5rem;
     border-radius: 0.5rem;    
 }
 .box-text button{
     color: white;
-    background-color:rgb(5, 167, 167);
+    background-color:#72123a;
     border: none;
-    height: 1.5rem;
+    height: 1.75rem;
     width: 5.5rem;
     margin-top: 0.5rem;
     border-radius: 0.2rem;
@@ -440,11 +464,12 @@
 }
 
 .box-2{
-    background-color: rgb(243, 240, 240);
+    background-color:  #ece5e8;
     height: 25rem;
     width: 20rem;
     margin-bottom: 0.625rem;
     margin-right: 0.625rem;
+    border-radius: 5%;
 }
 .box-2 p{
     margin-left: 2.5rem;
@@ -457,14 +482,16 @@
     height: 15rem;
     background-size: cover;
     margin-top: 2.5rem;
-    margin-left: 2.5rem;
-    border-radius: 0.5rem;    
+    margin-left: 1rem;
+    border-radius: 0.5rem;   
+    mix-blend-mode: multiply;
 }
 .box-3{
-    background-color: rgb(243, 240, 240);
+    background-color: #ece5e8;
     height: 25rem;
     width: 20rem;
     margin-right: 3rem;
+    border-radius: 5%;
 }
 
 .box-3 p{
@@ -477,8 +504,9 @@
     height: 15rem;
     background-size: cover;
     margin-top: 2.5rem;
-    margin-left: 2.5rem;
-    border-radius: 0.5rem;    
+    margin-left: .5rem;
+    border-radius: 0.5rem; 
+    mix-blend-mode: multiply;   
 }
 .boxes{
     display: flex;
@@ -493,12 +521,14 @@
 .our-partners{
     width: 100%;
     height: 50rem;
-    background-color: #bebec8;
+    background-color: #d4b7c4;
 }
 
 .our-partners h1{
     color: #130f0e;
+    font-size: 2.5rem;
     text-align: center;
+    padding: 1rem;;
 }
 .row1{
     display: flex;
@@ -511,6 +541,7 @@
     height: 18.75rem;
     margin-top: 3.12rem;
     background-image: url("ngo.jpg");
+    mix-blend-mode: multiply;
     background-size: cover;
 }
 
@@ -519,7 +550,9 @@
     height: 18.75rem;
     margin-top: 3.12rem;
     background-image: url("hotel.jpg");
+    mix-blend-mode: multiply;
     background-size: contain;
+
 }
 
 .row2{
@@ -533,6 +566,7 @@
     height: 18.75rem;
     margin-top: 3.12rem;
     background-image: url("delivery.jpg");
+    mix-blend-mode: multiply;
     background-size: cover;
 }
 
@@ -542,6 +576,7 @@
     background-color: #130f0e;
     margin-top: 3.12rem;
     background-image: url("resturant.jpg");
+    mix-blend-mode: multiply;
     background-size: cover;
 }
 
@@ -552,7 +587,7 @@
 .register{
     height: 54.37rem;
     width: 100%;
-    background-color: rgb(131, 152, 152);
+    background-color:#e0d3d9;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -662,7 +697,7 @@
   }
   
   .submit {
-    background-color: #08d;
+    background-color: #72123a;
     border-radius: 0.75rem;
     border: 0;
     box-sizing: border-box;
@@ -677,7 +712,7 @@
   }
   
   .submit:active {
-    background-color: #06b;
+    background-color: #e784b4;
   }
 
 
@@ -738,7 +773,7 @@
 
 
 footer {
-    background-color: #333;
+    background-color: #841443;
     color: #fff;
     padding: 40px 0;
     text-align: center;
@@ -802,7 +837,7 @@ footer {
 }
 
 .footer-info {
-    border-top: 1px solid #444;
+    border-top: 1px solid #5e0c2e;
     padding-top: 1.25rem;
     margin-top: 1.25rem;
     font-size: 0.880rem;
